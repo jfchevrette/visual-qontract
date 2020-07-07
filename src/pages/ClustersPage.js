@@ -85,7 +85,6 @@ const GET_CLUSTERS = gql`
 
 const ClustersPage = ({ location }) => {
   const path = location.hash.substring(1);
-  console.log(path);
 
   if (path) {
     return (
